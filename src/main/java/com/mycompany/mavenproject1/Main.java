@@ -14,7 +14,7 @@ public class Main {
         tree.getHijo()[0].setHijo (0,50);
         tree.getHijo()[0].setHijo (1,99);
         tree.getHijo()[1].setHijo (0,40); 
-        
+        tree.getHijo()[1].setHijo (1,33);
         tree.preOrden();
     }
 }
