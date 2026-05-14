@@ -12,7 +12,9 @@ public class Main {
         Nodo[]arrNodo={new Nodo(23,null),new Nodo(11,null)};
         tree.setHijo(arrNodo);
         tree.getHijo()[0].setHijo (0,50);
+        tree.getHijo()[0].setHijo (1,99);
         tree.getHijo()[1].setHijo (0,40); 
+        
         tree.preOrden();
     }
 }
